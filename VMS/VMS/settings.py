@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'VMS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'VMS',#name is save in small letters in local db
+        'NAME': 'vms',#name is save in small letters in local db
         'USER': 'pushkar',
         'PASSWORD': 'root',
         'HOST': 'localhost',
